@@ -3,10 +3,7 @@
 [![Open Issues](https://img.shields.io/github/issues/spamty/translate)](https://github.com/spamty/translate/issues)
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/spamty?style=social)](https://twitter.com/Spamty)
-[![Mastodon Follow](https://img.shields.io/static/v1?label=@spamty@fosstodon.org&message=%20&style=social&logo=mastodon)](https://fosstodon.org/@spamty)
 [![GitHub](https://img.shields.io/github/followers/spamty?label=GitHub&style=social)](https://github.com/spamty/)
-
-[![Email](https://img.shields.io/badge/Email-contact@spamty.eu-grey)](https://spamty.eu/contact.php)
 
 This is the translation for the spamty.eu website.
 

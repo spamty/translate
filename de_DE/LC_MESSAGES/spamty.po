@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Spamty\n"
-"POT-Creation-Date: 2021-02-20 19:19+0100\n"
-"PO-Revision-Date: 2021-02-20 19:19+0100\n"
+"POT-Creation-Date: 2021-08-16 20:40+0200\n"
+"PO-Revision-Date: 2021-08-16 20:41+0200\n"
 "Last-Translator: Philipp Rackevei\n"
 "Language-Team: Philipp\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.0\n"
 "X-Poedit-Basepath: ../../..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -27,7 +27,7 @@ msgid "Feel free to contact Spamty.eu if you need help or just want to talk."
 msgstr ""
 "Kontaktiere mich, wenn du Hilfe brauchst oder einfach nur reden willst."
 
-#: website/contact.php:15 website/contact.php:36 website/index.php:26
+#: website/contact.php:15 website/contact.php:32 website/index.php:26
 #: website/index_bulk.php:25 website/index_js.php:98 website/index_text.php:37
 msgid "Email"
 msgstr "E-Mail"
@@ -36,15 +36,15 @@ msgstr "E-Mail"
 msgid "Go to my email address on Spamty."
 msgstr "Zu meiner E-Mail Adresse auf Spamty."
 
-#: website/contact.php:58 website/feed.php:153
+#: website/contact.php:54 website/feed.php:153
 msgid "creator of Spamty"
 msgstr "Erschaffer von Spamty"
 
-#: website/contact.php:77 website/contact.php:80
+#: website/contact.php:73 website/contact.php:76
 msgid "GPG Key"
 msgstr "GPG-Schlüssel"
 
-#: website/contact.php:79 website/legal.php:25 website/privacy.php:138
+#: website/contact.php:75 website/legal.php:23
 msgid "Please use my GPG key to encrypt emails!"
 msgstr "Bitte benutze meinen GPG-Key, um E-Mails zu verschlüsseln!"
 
@@ -372,31 +372,25 @@ msgstr ""
 #: website/faq.php:99
 msgid ""
 "If you want to use Spamty to create links to multiple email addresses you "
-"can <a>use our API</a>. "
+"can <a>contact me</a> to get access to a bulk link creator tool. This can be "
+"used to create Spamty links for a list of hundreds of email addresses."
 msgstr ""
 "Wenn Sie Spamty verwenden möchten, um Links zu mehreren E-Mail-Adressen zu "
-"erstellen, können Sie <a>unsere API</a> verwenden. "
+"erstellen, können Sie <a>mich kontaktieren,</a> um Zugriff auf ein Bulk-Link-"
+"Creator-Tool zu erhalten. Dies kann verwendet werden, um Spamty-Links für "
+"eine Liste von Hunderten von E-Mail-Adressen zu erstellen."
 
-#: website/faq.php:100
-msgid ""
-"Or you can <a>contact me</a> to get access to a bulk link creator tool. This "
-"can be used to create Spamty links for a list of hundreds of email addresses."
-msgstr ""
-"Oder Sie können <a>Kontaktieren Sie mich</a>, um Zugang zu einem Bulk Link "
-"Creator Tool zu erhalten. Damit können Sie Spamty-Links für eine Liste von "
-"Hunderten von E-Mail-Adressen erstellen."
-
-#: website/faq.php:105
+#: website/faq.php:104
 msgid "Is the source code public? Can I run a self-hosted version?"
 msgstr ""
 "Ist der Quellcode öffentlich? Kann ich eine eigene Version von Spamty "
 "betreiben?"
 
-#: website/faq.php:107
+#: website/faq.php:106
 msgid "I created a small PHP script to run a self-hosted version of Spamty."
 msgstr "Ich habe ein kleines PHP Skript erstellt."
 
-#: website/faq.php:114
+#: website/faq.php:113
 msgid ""
 "Upload the PHP file to your web server and edit the file to adjust it to "
 "your needs."
@@ -437,13 +431,11 @@ msgstr ""
 "Dadurch wird ein Cookie erstellt, um deine bevorzugte Sprache zu speichern. "
 "Ist das okay?"
 
-#: website/includes/ws-footer.php:7 website/legal.php:16 website/privacy.php:38
-#: website/privacy.php:131
+#: website/includes/ws-footer.php:7 website/legal.php:18 website/legal.php:63
 msgid "Contact"
 msgstr "Kontakt"
 
-#: website/includes/ws-footer.php:8 website/show.php:158
-#: website/show_js.php:209
+#: website/includes/ws-footer.php:8 website/show_js.php:209
 msgid "FAQ/Help"
 msgstr "FAQ/Hilfe"
 
@@ -451,24 +443,16 @@ msgstr "FAQ/Hilfe"
 msgid "Newsfeed"
 msgstr "Neuigkeiten"
 
-#: website/includes/ws-footer.php:10 website/legal.php:4 website/legal.php:13
-#: website/show.php:159 website/show_js.php:210
-msgid "Legal Notice"
-msgstr "Impressum"
+#: website/includes/ws-footer.php:12
+msgid "Legal & Privacy Notice"
+msgstr "Impressum & Datenschutz"
 
-#: website/includes/ws-footer.php:11 website/index.php:36
-#: website/index_bulk.php:50 website/index_js.php:108 website/index_text.php:47
-#: website/privacy.php:4 website/privacy.php:13 website/show.php:160
-#: website/show_js.php:211
-msgid "Privacy Policy"
-msgstr "Datenschutzbestimmungen"
-
-#: website/includes/ws-head.php:105
+#: website/includes/ws-head.php:104
 msgid "Protect your Email Address against Spam"
 msgstr "Schütze deine E-Mail Adresse gegen Spam"
 
-#: website/includes/ws-head.php:116 website/index.php:5
-#: website/index_bulk.php:5 website/index_js.php:5 website/legal.php:31
+#: website/includes/ws-head.php:115 website/index.php:5
+#: website/index_bulk.php:5 website/index_js.php:5
 msgid ""
 "Tired of spam? Spamty helps you to protect your email address on the web by "
 "asking people to solve a captcha before they see it."
@@ -530,6 +514,12 @@ msgstr "Schütze andere Kontaktinformationen"
 #: website/index_text.php:47
 msgid "I accept the <a>privacy policy</a>."
 msgstr "Ich akzeptiere die <a>Datenschutzbestimmungen</a>."
+
+#: website/index.php:36 website/index_bulk.php:50 website/index_js.php:108
+#: website/index_text.php:47 website/legal.php:41 website/show.php:170
+#: website/show_js.php:211
+msgid "Privacy Policy"
+msgstr "Datenschutzbestimmungen"
 
 #: website/index.php:39 website/index_bulk.php:53 website/index_js.php:111
 msgid ""
@@ -766,75 +756,67 @@ msgstr "Verlinke die Information"
 msgid "You can find the information here: "
 msgstr "Hier findest du die Informationen: "
 
+#: website/legal.php:4 website/legal.php:14
+msgid "Legal Notice & Privacy Policy"
+msgstr "Impressum & Datenschutz"
+
 #: website/legal.php:5
 msgid ""
-"Here are all legal information about Spamty including contact information "
-"according to German law."
+"Here are all legal information about Spamty including contact information. "
+"Read our privacy policy to see what data we collect, store and share."
 msgstr ""
-"Hier sind alle rechtlichen Informationen über Spamty, einschließlich "
-"Kontaktinformationen nach deutschen Recht."
+"Hier finden Sie alle rechtlichen Informationen zu Spamty, einschließlich "
+"Kontaktinformationen. Lesen Sie unsere Datenschutzrichtlinie, um zu sehen, "
+"welche Daten wir sammeln, speichern und weitergeben."
 
-#: website/legal.php:14
+#: website/legal.php:15
 msgid ""
-"This is the legal notice according to sect. 5 TMG (German teleservices act) "
-"for the following websites and our social media accounts:"
+"This is the legal notice for the following websites and our social media "
+"accounts:"
 msgstr ""
-"Das ist das Impressum nach &sect; 5 TMG (Telemediengesetz) für folgende "
-"Websites und die zugehörigen Social Media Accounts:"
+"Dies ist der rechtliche Hinweis für die folgenden Websites und unsere Social-"
+"Media-Konten:"
 
-#: website/legal.php:18
+#: website/legal.php:19
 msgid "This Website is provided by:"
 msgstr "Diese Website wird angeboten von:"
 
-#: website/legal.php:24 website/privacy.php:137
+#: website/legal.php:22
 msgid "You can contact me via email:"
 msgstr "Du kannst mich per E-Mail kontaktieren:"
 
-#: website/legal.php:27
-msgid "You can find our <a>privacy policy here</a>. "
-msgstr "Du findest unsere <a>Datenschutzbestimmungen hier</a>. "
-
-#: website/legal.php:29
-msgid "Not Commercial"
-msgstr "Nicht Kommerzielles Angebot"
-
-#: website/legal.php:30
+#: website/legal.php:24
 msgid "This webservice is provided without a gainful intension."
 msgstr ""
 "Diese Website ist ein nicht kommerzielles Angebot und wird auch nicht mit "
 "gewinnbringenden Absichten betrieben."
 
-#: website/legal.php:32
-msgid "Learn more!"
-msgstr "Mehr erfahren!"
-
-#: website/legal.php:34
+#: website/legal.php:27
 msgid "Disclaimer"
 msgstr "Haftungsausschluss"
 
-#: website/legal.php:35
+#: website/legal.php:28
 msgid ""
 "As a service provider, we are responsible only for our own content on these "
-"pages according to sect. 7(1) TMG. "
+"pages. "
 msgstr ""
-"Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf "
-"diesen Seiten nach den allgemeinen Gesetzen verantwortlich. "
+"Als Diensteanbieter sind wir nur für eigene Inhalte auf diesen Seiten "
+"verantwortlich. "
 
-#: website/legal.php:36
+#: website/legal.php:29
 msgid ""
-"Furthermore, according to sect. 7-10 TMG, as the provider of this website "
-"(service provider) we are not obliged to monitor the contents of the users "
-"or to investigate circumstances that indicate illegal activity. Should we "
-"notice any illegal content or other legal infringements, we will of course "
-"remove them immediately. "
+"Furthermore, as the provider of this website (service provider) we are not "
+"obliged to monitor the contents of the users or to investigate circumstances "
+"that indicate illegal activity. Should we notice any illegal content or "
+"other legal infringements, we will of course remove them immediately. "
 msgstr ""
-"Des weiteren sind wir nach §§ 7 bis 10 TMG als Anbieter dieser Website "
-"(Dienstanbieter) nicht dazu verpflichtet die Inhalte der Nutzer zu "
-"überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige "
-"Tätigkeit hinweisen. Sollten uns hier Rechtswidrigen Inhalten oder anderen "
-"Rechtsverletzungen auffallen, werden wir diese natürlich umgehend entfernen. "
+"Des Weiteren sind wir als Anbieter dieser Website (Dienstleister) nicht "
+"verpflichtet, die Inhalte der Nutzer zu überwachen oder nach Umständen zu "
+"forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Sollten uns "
+"rechtswidrige Inhalte oder sonstige Rechtsverletzungen auffallen, werden wir "
+"diese selbstverständlich umgehend entfernen. "
 
-#: website/legal.php:37
+#: website/legal.php:30
 msgid ""
 "We are not liable for content created by users (especially posts and "
 "comments in the blog). Any liability in this regard is possible at the "
@@ -844,7 +826,7 @@ msgstr ""
 "Beiträge und Kommentare im Blog). Eine diesbezügliche Haftung ist frühestens "
 "ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. "
 
-#: website/legal.php:38
+#: website/legal.php:31
 msgid ""
 "This website contains links to third party websites. We have no influence on "
 "the content of these websites and cannot accept any liability for such third-"
@@ -856,7 +838,7 @@ msgstr ""
 "auch keine Haftung übernehmen. Für die Inhalte der verlinkten Websites ist "
 "stets der jeweilige Anbieter oder Betreiber verantwortlich. "
 
-#: website/legal.php:39
+#: website/legal.php:32
 msgid ""
 "At the time of linking we could not find any illegal content on these "
 "websites. If we become aware of illegal content or other legal "
@@ -869,11 +851,11 @@ msgstr ""
 "Links umgehend entfernen. Eine permanente inhaltliche Kontrolle der "
 "verlinkten Websites ist nicht zumutbar. "
 
-#: website/legal.php:41
+#: website/legal.php:35
 msgid "Copyright"
 msgstr "Urheberrecht"
 
-#: website/legal.php:42
+#: website/legal.php:36
 msgid ""
 "The contents published on this website are subject to copyright. Copying, "
 "editing and distribution requires the consent of the respective copyright "
@@ -883,7 +865,7 @@ msgstr ""
 "Urheberrecht. Die Vervielfältigung, Bearbeitung und Verbreitung bedarf der "
 "Zustimmung des jeweiligen Rechteinhabers. "
 
-#: website/legal.php:43
+#: website/legal.php:37
 msgid ""
 "Content that was not created by us is indicated, if a marking is required. "
 "As far as the content on this site was not created by us, the copyrights of "
@@ -893,7 +875,7 @@ msgstr ""
 "Kennzeichnung erforderlich ist. Soweit die Inhalte auf dieser Seite nicht "
 "von uns erstellt wurden, werden die Urheberrechte Dritter beachtet. "
 
-#: website/legal.php:44
+#: website/legal.php:38
 msgid ""
 "Should you become aware of a copyright infringement, please inform us and we "
 "will remove the content immediately. "
@@ -901,33 +883,11 @@ msgstr ""
 "Solltest du auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir "
 "um einen Hinweis und werden die Inhalte umgehend entfernen. "
 
-#: website/privacy.php:5
-msgid ""
-"We protect your personal data as best as possible. Read our privacy policy "
-"to see what data we collect, store and share."
-msgstr ""
-"Wir schützen deine Daten so gut wie möglich. Lese unsere Datenschutzhinweise "
-"um zu erfahren, welchen Daten wir erheben, speichern und teilen."
-
-#: website/privacy.php:15
-msgid ""
-"We will explain on this page what information we collect, how the data is "
-"stored and how we use your personal information according to the EU General "
-"Data Protection Regulation (GDPR)."
-msgstr ""
-"Wir werden auf dieser Seite erklären, welche Informationen wir sammeln, wie "
-"die Daten gespeichert werden und wie wir Ihre persönlichen Daten gemäß der "
-"EU Datenschutz-Grundverordnung (DSGVO) verwenden."
-
-#: website/privacy.php:16
-msgid "See below for the identity and the contact details of the controller."
-msgstr "Unten findest du den Namen und die Kontaktdaten des Verantwortlichen."
-
-#: website/privacy.php:18
+#: website/legal.php:43
 msgid "What kind of information do we store?"
 msgstr "Welche Daten speichern wir?"
 
-#: website/privacy.php:19
+#: website/legal.php:44
 msgid ""
 "If you <a>create a link to your email address</a> we will store your email "
 "address encrypted in our database. "
@@ -935,7 +895,7 @@ msgstr ""
 "Wenn du einen <a>Link zu deiner E-Mail Adresse</a> erstellst, wird deine E-"
 "Mail Adresse in verschlüsselter Form in unserer Datenbank gespeichert. "
 
-#: website/privacy.php:20
+#: website/legal.php:45
 msgid ""
 "If you <a>create a Spamty link for other personal information</a> we will "
 "store the text that you enter in the textfield encrypted in our database and "
@@ -945,13 +905,13 @@ msgstr ""
 "erstellst, wird dieser Text in verschlüsselter Form in unserer Datenbank "
 "gespeichert. Deine E-Mail-Adresse wird jedoch im Klartext gespeichert. "
 
-#: website/privacy.php:21
+#: website/legal.php:46
 msgid "Furthermore we store the date and time when the link was generated. "
 msgstr ""
 "Zusätzlich speichern wir noch das Datum und Uhrzeit, wenn du den Link "
 "erstellst. "
 
-#: website/privacy.php:22
+#: website/legal.php:47
 msgid ""
 "We store this data as long as you do not ask us to delete it but we cannot "
 "guarantee any service or the availability of Spamty."
@@ -960,11 +920,11 @@ msgstr ""
 "löschen. Wir können aber keinen Service garantieren oder, dass Spamty "
 "verfügbar bleibt."
 
-#: website/privacy.php:24
+#: website/legal.php:49
 msgid "How is the data encrypted?"
 msgstr "Wie werden die Daten verschlüsselt?"
 
-#: website/privacy.php:25
+#: website/legal.php:50
 msgid ""
 "We encrypt the data with the AES-256 algorithm which is also used in the US "
 "to encrypt \"Top Secret\" documents."
@@ -972,7 +932,7 @@ msgstr ""
 "Deine Daten werden mit dem AES-256 Algorithmus verschlüsselt (dieser wird "
 "auch in den USA für streng geheime Dokumente verwendet)."
 
-#: website/privacy.php:26
+#: website/legal.php:51
 msgid ""
 "The key for the encryption is randomly generated. It is not stored on our "
 "server but contained in the link that you created. A decryption without this "
@@ -983,11 +943,11 @@ msgstr ""
 "erhältst. Eine Entschlüsselung ist ohne diesen Schlüssel - auch für uns - "
 "nicht möglich."
 
-#: website/privacy.php:28
+#: website/legal.php:53
 msgid "Sharing of personal data"
 msgstr "Weitergabe von Daten"
 
-#: website/privacy.php:29
+#: website/legal.php:54
 msgid ""
 "If someone clicks on the Spamty link he will be able to see your email "
 "address or the data after he solved a captcha. You shouldn't share the link "
@@ -997,7 +957,7 @@ msgstr ""
 "Mail-Adresse sehen, nachdem er ein Captcha gelöst hat. Du solltest den Link "
 "mit niemand teilen, der deine E-Mail-Adresse nicht sehen darf."
 
-#: website/privacy.php:30
+#: website/legal.php:55
 msgid ""
 "We use Cloudflare (a service by Cloudflare Inc., 101 Townsend St, San "
 "Francisco, CA 94107 / Cloudflare Ltd., County Hall/The Riverside Building, "
@@ -1007,7 +967,7 @@ msgstr ""
 "San Francisco, CA 94107 / Cloudflare Germany GmbH, Rosental 7, 80331 "
 "München), um diese Website zu schützen und zu optimieren. "
 
-#: website/privacy.php:31
+#: website/legal.php:56
 msgid ""
 "Cloudflare processes End Users’ information in logs. The information "
 "processed may include but is not limited to IP addresses, system "
@@ -1022,7 +982,7 @@ msgstr ""
 "umfassen. Cloudflare speichert Daten auf Benutzerebene für weniger als 24 "
 "Stunden."
 
-#: website/privacy.php:32
+#: website/legal.php:57
 msgid ""
 "We use hCaptcha (a service by Intuition Machines, Inc.) for the captchas to "
 "protect your email address against spam bots. "
@@ -1030,7 +990,7 @@ msgstr ""
 "Wir verwenden hCaptcha (ein Dienst von Intuition Machines, Inc.) für die "
 "Captchas, um Ihre E-Mail-Adresse vor Spam-Bots zu schützen. "
 
-#: website/privacy.php:33
+#: website/legal.php:58
 msgid ""
 "This service provider collects data only to verify that you are a human and "
 "not a bot. Your email address is not shared with hCaptcha."
@@ -1039,7 +999,7 @@ msgstr ""
 "Mensch und kein Bot sind. Ihre E-Mail Adresse wird nicht mit hCaptcha "
 "geteilt."
 
-#: website/privacy.php:34
+#: website/legal.php:59
 msgid ""
 "Our hosting provider is Uberspace (a service by Jonas Pasche, Kaiserstr. 15, "
 "55116 Mainz, Germany). "
@@ -1047,7 +1007,7 @@ msgstr ""
 "Unser Hosting-Provider ist Uberspace (ein Service von Jonas Pasche, "
 "Kaiserstr. 15, 55116 Mainz, Deutschland). "
 
-#: website/privacy.php:35
+#: website/legal.php:60
 msgid ""
 "The data protection agreement according to art. 28 GDPR can be found on "
 "<a>their website</a>."
@@ -1055,17 +1015,17 @@ msgstr ""
 "Die Datenschutzvereinbarung nach Art. 28 GDPR finden Sie auf <a>ihrer "
 "Website</a>."
 
-#: website/privacy.php:37
+#: website/legal.php:62
 msgid "How can I delete my data?"
 msgstr "Wie kann ich meine Daten löschen?"
 
-#: website/privacy.php:38
+#: website/legal.php:63
 msgid "Please <a>contact me</a> to deactivate the link or to delete your data."
 msgstr ""
 "<a>Kontaktiere mich</a> bitte um den Link zu deaktivieren oder um deine "
 "Daten löschen zu lassen."
 
-#: website/privacy.php:39
+#: website/legal.php:64
 msgid ""
 "I can add a hash of your email address to the blacklist so no one can use it "
 "on this website again."
@@ -1073,7 +1033,7 @@ msgstr ""
 "Ich kann einen Hash Ihrer E-Mail-Adresse zur Blacklist hinzufügen, so dass "
 "niemand sie mehr auf dieser Website verwenden kann."
 
-#: website/privacy.php:40 website/privacy.php:127
+#: website/legal.php:65 website/legal.php:149
 msgid ""
 "According to article 17 and 18 GDPR you have a right to erasure of your data "
 "and to restriction the processing of your data."
@@ -1081,17 +1041,17 @@ msgstr ""
 "Gemäß Artikel 17 und 18 DSGVO Sie haben ein Recht auf Löschung Ihrer Daten "
 "und zur Einschränkung der Verarbeitung Ihrer Daten."
 
-#: website/privacy.php:41
+#: website/legal.php:66
 msgid "You can withdraw your consent in processing your data at any time."
 msgstr ""
 "Sie können Ihre Einwilligung in die Verarbeitung Ihrer Daten jederzeit "
 "widerrufen."
 
-#: website/privacy.php:44
+#: website/legal.php:68
 msgid "Tracking and Webserver logs"
 msgstr "Tracking und Webserver Logs"
 
-#: website/privacy.php:45
+#: website/legal.php:69
 msgid ""
 "Our webserver logs every request to this website in a log file. This is for "
 "security purposes to prevent DDOS attacks and to see how many visitors the "
@@ -1103,7 +1063,7 @@ msgstr ""
 "wir so die Anzahl der Nutzer/Website-Aufrufe sehen. Zusätzlich hat der "
 "Webserver Logs für Fehlermeldungen."
 
-#: website/privacy.php:46
+#: website/legal.php:70
 msgid ""
 "To protect your privacy we only log the first 16 bits of an IPv4 address and "
 "the first 32 bits of an IPv6 address. Thus, the IPv4 address 82.98.87.93 and "
@@ -1115,7 +1075,7 @@ msgstr ""
 "82.98.87.93 und die IPv6 Adresse 2a02:2e0:3fc:52:0:62:5768:38 werden als "
 "82.98.0.0 und als 2a02:2e0:: in den Logs gespeichert."
 
-#: website/privacy.php:47
+#: website/legal.php:71
 msgid ""
 "Furthermore Cloudflare has logs about user data as stated above. These logs "
 "are kept for less than 24 hours."
@@ -1123,11 +1083,11 @@ msgstr ""
 "Darüber hinaus verfügt Cloudflare, wie oben erwähnt, über Protokolle über "
 "Benutzerdaten. Diese Protokolle werden für weniger als 24 Stunden aufbewahrt."
 
-#: website/privacy.php:50
+#: website/legal.php:73
 msgid "Cookie policy"
 msgstr "Cookie-Richtlinie"
 
-#: website/privacy.php:51
+#: website/legal.php:74
 msgid ""
 "Cookies are small files that are stored in your browser. With this for "
 "example it is possible to store and get your preferred language setting."
@@ -1136,7 +1096,7 @@ msgstr ""
 "Mit diesen kann zum Beispiel die bevorzugte Spracheinstellung gespeichert "
 "werden."
 
-#: website/privacy.php:52
+#: website/legal.php:75
 msgid ""
 "You can disable cookies in your browser settings then we won't be able to "
 "store them. You can also delete cookies in your browser."
@@ -1144,7 +1104,7 @@ msgstr ""
 "Du kannst Cookies in deinem Browser deaktivieren und löschen. Dann werden "
 "keine mehr durch diese Website gespeichert."
 
-#: website/privacy.php:53
+#: website/legal.php:76
 msgid ""
 "You can withdraw your consent for storing cookies by clicking on the "
 "following link (we can still use cookies without consent on the basis of "
@@ -1155,49 +1115,49 @@ msgstr ""
 "der Grundlage von Art. 6 GDPR verwenden) oder indem Sie Ihre Cookies in "
 "Ihrem Browser löschen."
 
-#: website/privacy.php:53
+#: website/legal.php:76
 msgid "withdraw consent"
 msgstr "Einwilligung widerrufen"
 
-#: website/privacy.php:64
+#: website/legal.php:87
 msgid "Cookie name"
 msgstr "Cookie Name"
 
-#: website/privacy.php:65
+#: website/legal.php:88
 msgid "Description"
 msgstr "Beschreibung"
 
-#: website/privacy.php:66
+#: website/legal.php:89
 msgid "Expires in X days"
 msgstr "Läuft in X Tagen ab"
 
-#: website/privacy.php:67
+#: website/legal.php:90
 msgid "Legal basis"
 msgstr "Rechtsgrundlage"
 
-#: website/privacy.php:74
+#: website/legal.php:97
 msgid "This cookie is created to store your consent for cookies."
 msgstr "Dieses Cookie speichert die Einwilligung für Cookies."
 
-#: website/privacy.php:76 website/privacy.php:82
+#: website/legal.php:99 website/legal.php:105
 msgid "Consent"
 msgstr "Einwilligung"
 
-#: website/privacy.php:80
+#: website/legal.php:103
 msgid "This cookie stores your preffered language."
 msgstr "Das Cookie speichert die bevorzugte Sprache."
 
-#: website/privacy.php:86
+#: website/legal.php:109
 msgid ""
 "The PHP Session ID is required for the captcha and for security purposes."
 msgstr ""
 "PHP Session ID ist erforderlich für Captchas und für Sicherheitszwecke."
 
-#: website/privacy.php:87
+#: website/legal.php:110
 msgid "Session"
 msgstr "Sitzung"
 
-#: website/privacy.php:93
+#: website/legal.php:116
 msgid ""
 "This cookie helps Cloudflare detect malicious visitors and is for security "
 "purposes."
@@ -1205,28 +1165,28 @@ msgstr ""
 "Dieses Cookie hilft Cloudflare schädliche Nutzer der Website zu "
 "identifizieren."
 
-#: website/privacy.php:99
+#: website/legal.php:122
 msgid "This cookie helps Cloudflare to correctly handle HTTP requests."
 msgstr ""
 "Dieses Cookie hilft Cloudflare um die HTTP Anfragen korrekt zu verarbeiten."
 
-#: website/privacy.php:105
+#: website/legal.php:128
 msgid "This cookie is required by Cloudflare to handle bots."
 msgstr "Dieses Cookie wird von Cloudflare wegen Bots benötigt."
 
-#: website/privacy.php:111 website/privacy.php:117
+#: website/legal.php:134 website/legal.php:140
 msgid "Cookie required by Cloudflare to keep this website online."
 msgstr "Dieses Cookie benötigt Cloudflare um die Website online zu halten."
 
-#: website/privacy.php:112 website/privacy.php:118
+#: website/legal.php:135 website/legal.php:141
 msgid "as required"
 msgstr "nach Bedarf"
 
-#: website/privacy.php:125
+#: website/legal.php:147
 msgid "Other rights"
 msgstr "Sonstige Rechte"
 
-#: website/privacy.php:126
+#: website/legal.php:148
 msgid ""
 "You can request an statement about you personal data which we store and "
 "process."
@@ -1234,7 +1194,7 @@ msgstr ""
 "Sie können anfordern, dass eine Auskunft über Ihre persönlichen Daten, die "
 "wir speichern und verarbeiten, erteilen."
 
-#: website/privacy.php:128
+#: website/legal.php:150
 msgid ""
 "You have the right to lodge a complaint with a supervisory authority "
 "according to the GDPR."
@@ -1242,12 +1202,7 @@ msgstr ""
 "Sie haben das Recht auf Beschwerde bei einer Aufsichtsbehörde gemäß der "
 "DSGVO."
 
-#: website/privacy.php:132
-msgid ""
-"You can contact me if you have any questions according the data protection:"
-msgstr "Bei Fragen zum Datenschutz kannst du mich jederzeit kontaktieren:"
-
-#: website/show.php:29 website/show.php:112 website/show_js.php:30
+#: website/show.php:40 website/show.php:123 website/show_js.php:30
 msgid ""
 "This link was invalid. You - or the person who gave you this link - probably "
 "made a typo. "
@@ -1255,7 +1210,7 @@ msgstr ""
 "Dieser Link war ungültig. Du - oder die Person, von der du den Link hast - "
 "hat vermutlich einen Tippfehler gemacht. "
 
-#: website/show.php:30 website/show.php:113 website/show_js.php:31
+#: website/show.php:41 website/show.php:124 website/show_js.php:31
 msgid ""
 "We would love to help you with this problem but we can't. We also don't know "
 "the correct link. "
@@ -1263,16 +1218,16 @@ msgstr ""
 "Wir würden dir gerne bei diesem Problem helfen, aber das geht leider nicht. "
 "Wir kennen auch nicht den richtigen Link. "
 
-#: website/show.php:31 website/show.php:70 website/show.php:93
-#: website/show.php:114 website/show_js.php:32
+#: website/show.php:42 website/show.php:81 website/show.php:104
+#: website/show.php:125 website/show_js.php:32
 msgid "<a>Contact the Spamty.eu team</a> if you need help."
 msgstr "<a>Kontaktiere das Spamty.eu-Team</a>, wenn du Hilfe brachst."
 
-#: website/show.php:40 website/show_js.php:54
+#: website/show.php:51 website/show_js.php:54
 msgid "Please solve the captcha below to see the requested information:"
 msgstr "Bitte löse das Captcha unten um die Informationen zu sehen:"
 
-#: website/show.php:47 website/show_js.php:61
+#: website/show.php:58 website/show_js.php:61
 msgid ""
 "Please click this box and follow possible instructions to verify that you "
 "are a human. "
@@ -1280,15 +1235,15 @@ msgstr ""
 "Bitte klicke die Box an und folge möglichen Anweisungen um zu bestätigen, "
 "dass du ein Mensch bist. "
 
-#: website/show.php:52 website/show_js.php:66
+#: website/show.php:63 website/show_js.php:66
 msgid "Show me!"
 msgstr "Anzeigen!"
 
-#: website/show.php:56 website/show_js.php:70
+#: website/show.php:67 website/show_js.php:70
 msgid "Why?"
 msgstr "Warum?"
 
-#: website/show.php:57 website/show_js.php:71
+#: website/show.php:68 website/show_js.php:71
 msgid ""
 "Some people use robots to search the internet for contact information and "
 "email addresses to send spam mails."
@@ -1297,7 +1252,7 @@ msgstr ""
 "Mail-Adressen zu durchsuchen. An die gefundenen Adressen versenden sie dann "
 "Spam."
 
-#: website/show.php:58 website/show_js.php:72
+#: website/show.php:69 website/show_js.php:72
 msgid ""
 "To protect against spam you were redirected to this website. We will check "
 "if you are a human and if we can show you the requested information."
@@ -1306,25 +1261,25 @@ msgstr ""
 "prüfen mit dem Captcha ob du ein Mensch bist und zeigen dir erst dann die "
 "gewünschten Informationen."
 
-#: website/show.php:67
+#: website/show.php:78
 msgid "Please do not fill out the email field. It is for spam protection only."
 msgstr "Bitte fülle nicht das Feld „email“ aus. Es dient nur als Spam-Schutz."
 
-#: website/show.php:68 website/show.php:91
+#: website/show.php:79 website/show.php:102
 msgid "Go back and try again."
 msgstr "Gehe zurück und versuche es nochmals."
 
-#: website/show.php:90
+#: website/show.php:101
 msgid "We couldn't verify that you are a human. "
 msgstr "Wir konnten nicht bestätigen, dass du ein Mensch bist. "
 
-#: website/show.php:122
+#: website/show.php:133
 msgid "Please send an email to contact@spamty.eu with this error code. "
 msgstr ""
 "Schicke bitte eine E-Mail an contact@spamty.eu und gebe folgenden Fehlercode "
 "an. "
 
-#: website/show.php:123
+#: website/show.php:134
 msgid ""
 "We will try to fix this problem and tell you the email address you wanted to "
 "see."
@@ -1332,116 +1287,144 @@ msgstr ""
 "Wir geben dir dann die E-Mail Adresse, die du eigentlich wolltest und "
 "beheben dieses Problem."
 
-#: website/show.php:131 website/show_js.php:145
+#: website/show.php:142 website/show_js.php:145
 msgid "Here is the information you wanted to see:"
 msgstr "Hier sind die Daten, die du sehen wolltest:"
 
-#: website/show.php:135 website/show_js.php:171
+#: website/show.php:146 website/show_js.php:171
 msgid "Here is the Email Address you wanted to see:"
 msgstr "Hier ist die E-Mail-Adresse, die du sehen wolltest:"
 
-#: website/show.php:157 website/show_js.php:208
+#: website/show.php:168 website/show_js.php:208
 msgid "Powered by"
 msgstr "Bereitgestellt von"
 
-#: website/v-recaptcha-mailhide.php:4
-msgid "Spamty vs. reCAPTCHA Mailhide"
-msgstr "Spamty vs. reCAPTCHA Mailhide"
+#: website/show.php:169 website/show_js.php:210
+msgid "Legal Notice"
+msgstr "Impressum"
 
-#: website/v-recaptcha-mailhide.php:5 website/v-recaptcha-mailhide.php:16
-msgid ""
-"Spamty is a great alternative for reCAPTCHA Mailhide since it was "
-"discontinued."
-msgstr ""
-"Spamty ist ein guter Ersatz für reCAPTCHA Mailhide, da dieses Dienst "
-"eingestellt wurde."
+#~ msgid ""
+#~ "If you want to use Spamty to create links to multiple email addresses you "
+#~ "can <a>use our API</a>. "
+#~ msgstr ""
+#~ "Wenn Sie Spamty verwenden möchten, um Links zu mehreren E-Mail-Adressen "
+#~ "zu erstellen, können Sie <a>unsere API</a> verwenden. "
 
-#: website/v-recaptcha-mailhide.php:13
-msgid "reCAPTCHA Mailhide alternative"
-msgstr "reCAPTCHA Mailhide Alternative"
+#~ msgid "You can find our <a>privacy policy here</a>. "
+#~ msgstr "Du findest unsere <a>Datenschutzbestimmungen hier</a>. "
 
-#: website/v-recaptcha-mailhide.php:14
-msgid ""
-"You can use Spamty if you want to share your email address on the internet "
-"(e.g. on Twitter, Craigslist, ...) without getting tons of spam. "
-msgstr ""
-"Du kannst SPamty benutzen um deine E-Mail-Adresse im Internet (z.B. auf "
-"Twitter, Craigslist, …) zu teilen, ohne massenhaft Spam zu bekommen. "
+#~ msgid "Not Commercial"
+#~ msgstr "Nicht Kommerzielles Angebot"
 
-#: website/v-recaptcha-mailhide.php:15
-msgid ""
-"You'll get a link to share it on the web. If someone visits this link he has "
-"to solve a captcha before we decrypt your email address of our database and "
-"display it on the website."
-msgstr ""
-"Wenn jemand auf diesen Link klickt, muss er ein Captcha lösen. Danach wird "
-"mit dem Wert aus unserer Datenbank und dem Schlüssel aus dem Link deine E-"
-"Mail Adresse entschlüsselt und angezeigt."
+#~ msgid "Learn more!"
+#~ msgstr "Mehr erfahren!"
 
-#: website/v-recaptcha-mailhide.php:28 website/v-scrim.php:26
-msgid "Best spam protection"
-msgstr "Bester Spamschutz"
+#~ msgid ""
+#~ "We protect your personal data as best as possible. Read our privacy "
+#~ "policy to see what data we collect, store and share."
+#~ msgstr ""
+#~ "Wir schützen deine Daten so gut wie möglich. Lese unsere "
+#~ "Datenschutzhinweise um zu erfahren, welchen Daten wir erheben, speichern "
+#~ "und teilen."
 
-#: website/v-recaptcha-mailhide.php:33 website/v-scrim.php:31
-msgid "Secure Captcha"
-msgstr "Sicheres Captcha"
+#~ msgid ""
+#~ "We will explain on this page what information we collect, how the data is "
+#~ "stored and how we use your personal information according to the EU "
+#~ "General Data Protection Regulation (GDPR)."
+#~ msgstr ""
+#~ "Wir werden auf dieser Seite erklären, welche Informationen wir sammeln, "
+#~ "wie die Daten gespeichert werden und wie wir Ihre persönlichen Daten "
+#~ "gemäß der EU Datenschutz-Grundverordnung (DSGVO) verwenden."
 
-#: website/v-recaptcha-mailhide.php:38 website/v-scrim.php:46
-msgid "Multilingual"
-msgstr "Mehrsprachig"
+#~ msgid ""
+#~ "See below for the identity and the contact details of the controller."
+#~ msgstr ""
+#~ "Unten findest du den Namen und die Kontaktdaten des Verantwortlichen."
 
-#: website/v-recaptcha-mailhide.php:43 website/v-scrim.php:36
-msgid "Free"
-msgstr "Kostenlos"
+#~ msgid ""
+#~ "You can contact me if you have any questions according the data "
+#~ "protection:"
+#~ msgstr "Bei Fragen zum Datenschutz kannst du mich jederzeit kontaktieren:"
 
-#: website/v-recaptcha-mailhide.php:48 website/v-scrim.php:41
-msgid "API for developers"
-msgstr "API für Entwickler"
+#~ msgid "Spamty vs. reCAPTCHA Mailhide"
+#~ msgstr "Spamty vs. reCAPTCHA Mailhide"
 
-#: website/v-recaptcha-mailhide.php:53 website/v-scrim.php:51
-msgid "GDPR compliant"
-msgstr "DSGVO konform"
+#~ msgid ""
+#~ "Spamty is a great alternative for reCAPTCHA Mailhide since it was "
+#~ "discontinued."
+#~ msgstr ""
+#~ "Spamty ist ein guter Ersatz für reCAPTCHA Mailhide, da dieses Dienst "
+#~ "eingestellt wurde."
 
-#: website/v-recaptcha-mailhide.php:58 website/v-scrim.php:56
-msgid "Encrypted database"
-msgstr "Verschlüsselte Datenbank"
+#~ msgid "reCAPTCHA Mailhide alternative"
+#~ msgstr "reCAPTCHA Mailhide Alternative"
 
-#: website/v-recaptcha-mailhide.php:63 website/v-scrim.php:61
-msgid "Online"
-msgstr "Online"
+#~ msgid ""
+#~ "You can use Spamty if you want to share your email address on the "
+#~ "internet (e.g. on Twitter, Craigslist, ...) without getting tons of spam. "
+#~ msgstr ""
+#~ "Du kannst SPamty benutzen um deine E-Mail-Adresse im Internet (z.B. auf "
+#~ "Twitter, Craigslist, …) zu teilen, ohne massenhaft Spam zu bekommen. "
 
-#: website/v-recaptcha-mailhide.php:65 website/v-scrim.php:63
-msgid "since"
-msgstr "seit"
+#~ msgid ""
+#~ "You'll get a link to share it on the web. If someone visits this link he "
+#~ "has to solve a captcha before we decrypt your email address of our "
+#~ "database and display it on the website."
+#~ msgstr ""
+#~ "Wenn jemand auf diesen Link klickt, muss er ein Captcha lösen. Danach "
+#~ "wird mit dem Wert aus unserer Datenbank und dem Schlüssel aus dem Link "
+#~ "deine E-Mail Adresse entschlüsselt und angezeigt."
 
-#: website/v-recaptcha-mailhide.php:69 website/v-scrim.php:67
-msgid "discontinued"
-msgstr "beendet"
+#~ msgid "Best spam protection"
+#~ msgstr "Bester Spamschutz"
 
-#: website/v-recaptcha-mailhide.php:70 website/v-scrim.php:68
-msgid "Start using Spamty"
-msgstr "Beginne hier"
+#~ msgid "Secure Captcha"
+#~ msgstr "Sicheres Captcha"
 
-#: website/v-scrim.php:4
-msgid "Spamty vs. scr.im"
-msgstr "Spamty vs. scr.im"
+#~ msgid "Multilingual"
+#~ msgstr "Mehrsprachig"
 
-#: website/v-scrim.php:5
-msgid ""
-"Spamty offers a great alternative for the discontinued service 'scr.im'."
-msgstr "Spamty ist eine tolle Alternative für den beendeten Dienst 'scr.im'."
+#~ msgid "Free"
+#~ msgstr "Kostenlos"
 
-#: website/v-scrim.php:13
-msgid "scr.im alternative"
-msgstr "scr.im Alternative"
+#~ msgid "API for developers"
+#~ msgstr "API für Entwickler"
 
-#: website/v-scrim.php:14
-msgid ""
-"Spamty offers a great alternative for the discontinued service 'scr.im' to "
-"get less email spam."
-msgstr ""
-"Spamty bietet eine gute Alternative um weniger Spam zu bekommen für scr.im "
-"an, da dieser Dienst beendet wurde."
+#~ msgid "GDPR compliant"
+#~ msgstr "DSGVO konform"
+
+#~ msgid "Encrypted database"
+#~ msgstr "Verschlüsselte Datenbank"
+
+#~ msgid "Online"
+#~ msgstr "Online"
+
+#~ msgid "since"
+#~ msgstr "seit"
+
+#~ msgid "discontinued"
+#~ msgstr "beendet"
+
+#~ msgid "Start using Spamty"
+#~ msgstr "Beginne hier"
+
+#~ msgid "Spamty vs. scr.im"
+#~ msgstr "Spamty vs. scr.im"
+
+#~ msgid ""
+#~ "Spamty offers a great alternative for the discontinued service 'scr.im'."
+#~ msgstr ""
+#~ "Spamty ist eine tolle Alternative für den beendeten Dienst 'scr.im'."
+
+#~ msgid "scr.im alternative"
+#~ msgstr "scr.im Alternative"
+
+#~ msgid ""
+#~ "Spamty offers a great alternative for the discontinued service 'scr.im' "
+#~ "to get less email spam."
+#~ msgstr ""
+#~ "Spamty bietet eine gute Alternative um weniger Spam zu bekommen für scr."
+#~ "im an, da dieser Dienst beendet wurde."
 
 #~ msgid "Feel free to contact me via email:"
 #~ msgstr "Du kannst mich gerne jederzeit per E-Mail kontaktieren:"
